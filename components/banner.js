@@ -15,14 +15,15 @@
    from what is shown in the video to get the same affect. 
 
    So the actual issue is, why was were my global CSS 
-   files not applying.
+   files not applying. I had two CSS- one auto-generated
+   by next.js. Possibly interfering?
 
    I realized that the image is not interacting with the
    bootstrap classes because there is no bootstrap class
    attached to it. It is attached to the parent 
    container. If the className is attached to the image,
    it does affect the image. But then it also changes
-   the ability to apply style attributes to the img. 
+   the ability to apply style attributes to the image. 
 */
 
 import Image from "next/image"

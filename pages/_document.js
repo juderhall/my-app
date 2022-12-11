@@ -9,8 +9,8 @@ export default function Document() {
             rel="stylesheet"
         />
         <link 
-            // hrefs="../public/css/globals.css"
-            hrefs="css/globals.css"
+            // hrefs="css/globals.css"
+            hrefs="../public/css/globals.css"
             rel="stylesheet"
         />
       </Head>
